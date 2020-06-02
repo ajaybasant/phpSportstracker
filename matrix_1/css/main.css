@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: radial-gradient(#96a0ab, transparent);
+}
+.header {
+    padding: 5px;
+    background: #000;
+    height: 48px;
+    margin: 0px;
+}
+
+.header img {
+    float: left;
+    height: 48px;
+    
+}
+
+.header span {
+    padding: 15px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 48px;
+}
+
+footer {
+    background-color: #c7c7c7;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 8px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: auto;
+}
+
+.container {
+    margin: 25px auto 0px auto;
+    padding: 15px;
+    border: #c1c1c1 1px solid;
+    border-radius: 10px;
+    background: #fff; 
+    height: 100%;
+    width: 80%;
+}
+
+h1{
+    margin: 0px 0px 15px 0px; 
+}
+
+input, textarea {
+    margin: 0px 0px 10px 5px;
+    padding-left: 5px;
+}
+textarea{
+    width: 60%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #f5a652;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.pagehead {
+    color: darkslateblue;
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+    margin-left: 15px;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+    display: table;
+    border-collapse: collapse;
+    border-color: grey;
+    margin: 0px auto 15px auto;
+    text-align: left;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    padding: 24px 0px 20px 0px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    line-height: 2em;
+    border-bottom: solid 1px #e6e2e2;
+}
+
+th {
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.8;
+    text-transform: uppercase;
+    background-color: #36304a;
+    padding: 0px 25px 0px 10px;
+}
+
+td {
+    padding: 0px 25px 0px 10px;
+}
+
+.img-round {
+  border-radius: 50%;
+    min-width: 45px;
+height: 60px;
+
+}
+
+button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #434343;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95px;
+    outline: none;
+}
+
+button:hover {
+    background: #ed3330;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.logincontainer {
+    /* margin: 25px auto 0px auto; */
+    padding: 15px;
+    border: #c1c1c1 1px solid;
+    border-radius: 10px;
+    /* background: #fff;  */
+    /* height: 70%; */
+    width: 25%;
+    background: #434343;
+    /* background: #a9a4a4; */
+    color: #f7e1b7;
+}
+
+.btnLogin{
+    float: right;
+    margin-right: 10px;
+}
+
+.boxSignup{
+    clear: both;
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+.forgotpswd{
+    float: right;
+    margin-right: 10px;
+}
+/*
+.signupcontainer {
+  
+    padding: 15px;
+    border: #c1c1c1 1px solid;
+    border-radius: 10px;
+    height: 60%;
+    background: #434343;
+    color: #f7e1b7;
+}
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: red; */
+    padding: 10px;
+  }
+
+  .grid-item {
+    /* background-color: greenyellow; */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 5px;
+    /* font-size: 30px; */
+    /* text-align: center; */
+  }
+
+  p.forgotpassword {
+    margin-left: 50px;
+  }
+
+  table.profiletable{
+    width: 600px;
+    height: auto;
+    float: left;
+  }
+table.profiletable >td {
+    border-width: 1px;
+    border-color: black;
+}
